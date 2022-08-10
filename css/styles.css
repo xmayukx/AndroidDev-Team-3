@@ -3,28 +3,19 @@ body {
 }
 
 .btn {
-    position: relative;
-    bottom: 2em;
-    right:2em;
     border-radius: 12px;
+    position: absolute;
+    right: 2em;
 }
 
 .card {
-    height: 6em;
-    margin: 1em auto 1em auto;
-    border-radius: 10px;
-
-}
-
-.card-text {
-    font-weight: bold;
-    font-size: 1.5em;
-    margin-left: 1em;
-    margin-top: 0.5em;
+    margin: auto;
+    position: relative;
+    top: 50px;
 }
 
 .nav-title {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-family: 'Ubuntu Mono', monospace;
     font-weight: 700;
 }
@@ -32,4 +23,10 @@ body {
 .nav-icon {
     margin-right: 1em;
     margin-left: 2.5em;
+}
+
+.list-text {
+    font-size: 1.5rem;
+    padding: 15px;
+    font-family: 'Ubuntu', sans-serif;
 }
